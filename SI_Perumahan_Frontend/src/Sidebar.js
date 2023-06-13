@@ -3,7 +3,7 @@ function Sidebar (){
         <div className="main-sidebar">
           <aside id="sidebar-wrapper">
             <div className="sidebar-brand">
-              <a href="">Sistem Perumahan</a>
+              <a href="">E-PERUMAHAN</a>
             </div>
             <ul className="sidebar-menu">
               <li><a className="nav-link" href="/berita"><i className="fas fa-newspaper"></i> <span>Berita</span></a></li>

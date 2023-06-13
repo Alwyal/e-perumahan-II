@@ -36,7 +36,7 @@ function Formpembayaran() {
                 <div class="card-body">
                     <form onSubmit={(e) => HandleSubmit(e)}>
                         <div class="form-group">
-                            <label for="">Upload Bukti Pembayaran (<a href="https://drive.google.com/drive/folders/1MaRrGWcOINbCEvJDTto7gTF7Qosy7OL7?usp=share_link">Di sini!</a>)</label>
+                            <label for="">Upload Bukti Pembayaran dan pilih bulan yang sesuai (<a href="https://drive.google.com/drive/folders/1X51H32POx2poI6B1di-RfPYZz1ulPaF1?usp=sharing">Di sini!</a>)</label>
                         </div>
                         <div class="form-group">
                             <label for="">Nama</label>
