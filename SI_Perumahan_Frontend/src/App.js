@@ -22,12 +22,20 @@ import Formpembayaran from "./Formpembayaran";
 import Login from "./Login";
 import Alogin from "./Alogin";
 
+import Landing from "./Landing";
+
 function App() {
   return (
     <Router>
       <Routes>
 
         <Route path="/" element={
+          <div>
+            <Landing />
+          </div>
+        } />
+
+        <Route path="/login" element={
           <div>
             <Login />
           </div>

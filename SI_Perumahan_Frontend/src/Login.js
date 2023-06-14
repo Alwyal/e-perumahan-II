@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import image from "./2.png"
 
 function Login() {
     const userRef = useRef();
@@ -30,6 +31,13 @@ function Login() {
     };
 
     return (
+        <div id="bg"
+        style={{
+            backgroundImage: `url(${image})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            height: "100vh",
+            }}>
         <div id="card">
             <div id="card-content">
                 <div id="card-title">
@@ -54,6 +62,7 @@ function Login() {
                 </form>
             </div>
         </div>
+    </div>
     )
 }
 
